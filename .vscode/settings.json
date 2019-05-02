@@ -1,0 +1,6 @@
+{
+  "files.insertFinalNewline": true,
+  "standard.autoFixOnSave": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.enable": false
+}
