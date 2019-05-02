@@ -54,7 +54,7 @@ yargs.command('send', 'Send message to service bus topic or queue', argv => {
     await send({ topic, queue, message })
     success()
   } catch (error) {
-    fail(error)
+    fail(error.message)
   }
 })
 
